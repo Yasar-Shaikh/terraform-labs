@@ -1,0 +1,26 @@
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "5.0.1"
+    }
+  }
+}
+
+provider "azurerm" {
+  # Configuration options
+  features {
+    
+  } 
+subscription_id = "0efc1bfe-4f3f-4361-b143-b737300e5e14"
+
+
+}
+
+resource "azurerm_resource_group" "rg" {
+  name     = "rg2"
+  location = "East US"
+  tags = {
+    env = "dev"
+  }
+}
