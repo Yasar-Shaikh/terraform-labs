@@ -17,7 +17,7 @@ variable "vnet_name" {
 variable "rg_location" {
   description = "Location of the resource group"
   type        = string
-  default = "East US"
+  # default = "East US"
 }
 
 #Business unit Name
@@ -32,6 +32,6 @@ variable "business_unit" {
 variable "environment" {
   description = "Name of the environment"
   type        = string
-  default = "Dev"
+  # default = "Dev"
 }
  
