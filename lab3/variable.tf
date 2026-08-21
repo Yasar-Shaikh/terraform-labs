@@ -2,14 +2,14 @@
 variable "rg_name" {
   description = "Name of the resource group"
   type        = string
-  default = "myrg"
+  default     = "myrg"
 }
 
 #virtual network name
 variable "vnet_name" {
   description = "Name of the virtual network"
   type        = string
-  default = "myvnet"
+  default     = "myvnet"
 }
 
 
@@ -17,21 +17,21 @@ variable "vnet_name" {
 variable "rg_location" {
   description = "Location of the resource group"
   type        = string
-   default = "East US"
+  default     = "Central US"
 }
 
 #Business unit Name
 variable "business_unit" {
   description = "Name of the business unit"
   type        = string
-  default = "IT"
+  default     = "IT"
 
-}   
+}
 
 #Environment Name
 variable "environment" {
   description = "Name of the environment"
   type        = string
-   default = "Dev"
+  default     = "Dev"
 }
  
